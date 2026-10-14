@@ -2,16 +2,31 @@
   "name": "Clay Hub",
   "short_name": "Clay Hub",
   "description": "Community-led, always for you",
-  "start_url": ".",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#17110c",
-  "theme_color": "#24180F",
+  "orientation": "portrait",
+  "background_color": "#EAF1EF",
+  "theme_color": "#1F5560",
   "icons": [
     {
-      "src": "Clay_Hub_Community_Emblem.png",
-      "sizes": "1254x1254",
+      "src": "icon-192.png",
+      "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
